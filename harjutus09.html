@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Harjutus 09</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h3>Kasutajad</h3>
+      <div class="row">
+      <div class="col-sm-9">
+          <button class="btn btn-primary mb-3">+Lisa uus </button>
+      </div>
+      <div class="col-sm-3">
+      <div class="container-fluid">
+    <form class="d-flex" role="search">
+<input class="form-control me-2" type="search" placeholder="Otsi..." aria-label="Search">
+      <button class="btn btn-success" type="submit">Otsi</button>
+    </form>
+      </div>
+      </div>
+      </div>
+      <table class="table table-striped table-hover table-sm">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Pilt</th>
+            <th scope="col">Eesnimi</th>
+            <th scope="col">Email</th>
+            <th scope="col"></th> 
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+<td><img src="https://picsum.photos/id/901/600/400" class="rounded-circle" width="50" height="50" alt="Pilt isikust"></td>
+            <td>Heli Kopter</td>
+            <td>heli@kopter.ee</td>
+            <td>
+              <button class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#editModal1">Muuda</button>
+              <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal1">Kustuta</button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+<td><img src="https://picsum.photos/id/1020/600/400" class="rounded-circle" width="50" height="50" alt="Pilt isikust"></td>
+            <td>Anna Nuga</td>
+            <td>anna@nuga.com</td>
+            <td>
+              <button class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#editModal2">Muuda</button>
+              <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal2">Kustuta</button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+<td><img src="https://picsum.photos/id/1050/600/400" class="rounded-circle" width="50" height="50" alt="Pilt isikust"></td>
+            <td>Imre Tard</td>
+            <td>imre@tard.eu</td>
+            <td>
+              <button class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#editModal3">Muuda</button>
+              <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal3">Kustuta</button>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+<td><img src="https://picsum.photos/id/1000/600/400" class="rounded-circle" width="50" height="50" alt="Pilt isikust"></td>
+            <td>Maire Kase</td>
+            <td>maire@kase.ee</td>
+            <td>
+              <button class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#editModal4">Muuda</button>
+              <button class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#deleteModal4">Kustuta</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    <nav>
+      <ul class="pagination">
+        <li class="page-item"><a class="page-link" href="#">eelmine</a></li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item active"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">järgmine</a></li>
+      </ul>
+    </nav>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
