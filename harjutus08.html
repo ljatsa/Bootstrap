@@ -1,11 +1,16 @@
 <!doctype html>
-<html lang="en">
+<html lang="et">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>harjutus08</title>
+    <title>Registreerimine</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+      <style>
+      #valid5 {
+        height: 150px; 
+      }
+    </style>
   </head>
   <body>
 
@@ -14,44 +19,42 @@
       <h3>Registreerimine</h3>
 
       <form class="needs-validation" novalidate>
-        <div class="form-row">
-
+        <div class="row">
           <div class="col-md-6 mb-3">
             <label for="valid1">Eesnimi</label>
-            <input type="text" class="form-control" id="valid1" placeholder="Lisett-Rosette" required>
+            <input type="text" class="form-control" id="valid1" placeholder="Eesnimi" required>
             <div class="valid-feedback">Korras</div>
-            <div class="invalid-feedback">Palun täida!</div>
+            <div class="invalid-feedback">Kas sa oma nimegi ei tea vä?</div>
           </div>
 
           <div class="col-md-6 mb-3">
             <label for="valid2">Perenimi</label>
-            <input type="text" class="form-control" id="valid2" placeholder="Jätsa" required>
+            <input type="text" class="form-control" id="valid2" placeholder="Perenimi" required>
             <div class="valid-feedback">Korras</div>
             <div class="invalid-feedback">Palun täida!</div>
           </div>
         </div>
 
-        <div class="mb-3">
-          <label for="valid3">E-post</label>
-          <input type="email" class="form-control" id="valid3" placeholder="ljatsa@hkhk.edu.ee" required>
-          <div class="valid-feedback">Korras</div>
-          <div class="invalid-feedback">Palun sisesta kehtiv e-post!</div>
-        </div>
+        <div class="row">
+          <div class="col-md-6 mb-3">
+            <label for="valid3">E-mail</label>
+            <input type="email" class="form-control" id="valid3" placeholder="sinunimi@hkhk.edu.ee" required>
+            <div class="valid-feedback">Korras</div>
+            <div class="invalid-feedback">meil on vaja seda teada!!</div>
+          </div>
 
-        <div class="mb-3">
-          <label for="valid4">Telefon</label>
-          <input type="password" class="form-control" id="valid4" placeholder="6767 6767" required>
-          <div class="valid-feedback">Korras</div>
-          <div class="invalid-feedback">Palun sisesta number!</div>
+          <div class="col-md-6 mb-3">
+            <label for="valid4">Telefon</label>
+            <input type="text" class="form-control" id="valid4" placeholder="6767 6767" required>
+            <div class="valid-feedback">Korras</div>
+            <div class="invalid-feedback">Tõsiselt või</div>
+          </div>
         </div>
-
         <div class="mb-3">
           <label for="valid5">Kirjeldus</label>
-          <p>
+          <textarea class="form-control" id="valid5" placeholder="Kirjelda ennast mariole" required></textarea>
           <div class="valid-feedback">Korras</div>
-          <div class="invalid-feedback">Lammas oled! Sa pidid selle täitma</div>
-            <textarea class="form-control" aria-label="With textarea" required></textarea>
-          </p>
+          <div class="invalid-feedback">Lammas sa pidid selle täitma!</div>
         </div>
 
         <div class="form-check mb-3">
@@ -65,8 +68,8 @@
         <button class="btn btn-primary" type="submit">Registreeru</button>
       </form>
     </div>
-    <script>
 
+    <script>
       window.addEventListener('load', function() {
         var forms = document.querySelectorAll('.needs-validation');
 
@@ -87,6 +90,4 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz4fnFO9gybB0tF7tK8bQpN2IkI6f9FxBoG6cx9k14WiXtkzBz4M/4tuF8" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
-
   </body>
-</html>
