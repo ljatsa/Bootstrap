@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KT</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="#">metshein.com</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#">Avaleht</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Funktsioonid</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Hinnad</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Tiim</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Meist</a></li>
+        <li class="nav-item"><a class="btn btn-primary ms-2" href="#">Nupp</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<section class="py-5 text-center">
+  <div class="container">
+    <h1 class="mb-3">Blogi pealkiri tuleb siia</h1>
+    <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipiscing elit. Ipunem eos eum ducimus fugiat consectetur?</p>
+    <a href="#" class="btn btn-primary me-2">Loe rohkem</a>
+    <a href="#" class="btn btn-secondary">Vota ühendust</a>
+  </div>
+</section>
+
+<section class="py-4">
+  <div class="container">
+    <div class="row g-4 mb-4">
+      <div class="col-md-6">
+        <div class="card">
+          <img src="https://picsum.photos/id/684/600/400" class="card-img-top" alt="Esiletõstetud postitus" style="height:200px; object-fit:cover;">
+          <div class="card-body">
+            <span class="badge bg-secondary">MAAILM</span>
+            <h5 class="card-title">Esiletõstetud postitus</h5>
+            <p>30.mar</p>
+            <p class="card-text">See on lühike kaart, mis annab lühikese sissejuhatuse.</p>
+            <a href="#" class="btn btn-link p-0">Jätka lugemist</a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <img src="https://picsum.photos/id/1025/600/400" class="card-img-top" alt="Postituse pealkiri" style="height:200px; object-fit:cover;">
+          <div class="card-body">
+            <span class="badge bg-secondary">DISAIN</span>
+            <h5 class="card-title">Postituse pealkiri</h5>
+            <p>30.mar</p>
+            <p class="card-text">Veel üks kaart, mis toob esile disaini või toote.</p>
+            <a href="#" class="btn btn-link p-0">Jätka lugemist</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="card">
+          <img src="https://picsum.photos/id/1020/800/600" class="card-img-top" alt="Sinu artikkel" style="height:300px; object-fit:cover;">
+          <div class="card-body">
+            <h5 class="card-title">Sinu artikli alapealkiri ja detailid tulevad siia</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+            <a href="#" class="btn btn-link p-0">Loe edasi</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row g-4">
+          <div class="col-6">
+            <div class="card">
+              <img src="https://picsum.photos/id/684/300/200" class="card-img-top" alt="Lühike kokkuvõte" style="height:150px; object-fit:cover;">
+              <div class="card-body">
+          <p>
+            <small>
+              Autor: <a href="#">Lisett-Rosette Jätsa | 30.mar</a> 
+            </small>
+          </p>
+                <p class="card-text">Lühike kokkuvõte, mis viib artiklini.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="card">
+              <img src="https://picsum.photos/id/1076/300/200" class="card-img-top" alt="Teine kokkuvõte" style="height:150px; object-fit:cover;">
+              <div class="card-body">
+            <p>
+            <small>
+              Autor: <a href="#">Lisett-Rosette Jätsa | 30.mar</a> 
+            </small>
+            </p>
+                <p class="card-text">Teine lühike kokkuvõte, et hoida lehe ruutkes.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="py-4">
+  <div class="container">
+    <h4 class="mb-3">Karussellikaartide pealkiri</h4>
+    <div id="multiCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row g-3">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="https://picsum.photos/id/1025/300/200" class="card-img-top" alt="Pilt 1" style="height:150px; object-fit:cover;">
+                <div class="card-body text-center">
+                  <h6 class="card-title">Eriline rohuesetus</h6>
+                  <p class="card-text">Idee, mis loob usaldust ja struktuuri.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="https://picsum.photos/id/1025/300/200" class="card-img-top" alt="Pilt 2" style="height:150px; object-fit:cover;">
+                <div class="card-body text-center">
+                  <h6 class="card-title">Eriline rohuesetus</h6>
+                  <p class="card-text">Idee, mis loob usaldust ja struktuuri.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="https://picsum.photos/id/237/300/200" class="card-img-top" alt="Pilt 3" style="height:150px; object-fit:cover;">
+                <div class="card-body text-center">
+                  <h6 class="card-title">Eriline rohuesetus</h6>
+                  <p class="card-text">Idee, mis loob usaldust ja struktuuri.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="row g-3">
+            <div class="col-md-4">
+              <div class="card">
+                <img src="https://picsum.photos/id/1076/300/200" class="card-img-top" alt="Pilt 4" style="height:150px; object-fit:cover;">
+                <div class="card-body text-center">
+                  <h6 class="card-title">Eriline rohuesetus</h6>
+                  <p class="card-text">Idee, mis loob usaldust ja struktuuri.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="https://picsum.photos/id/1076/300/200" class="card-img-top" alt="Pilt 5" style="height:150px; object-fit:cover;">
+                <div class="card-body text-center">
+                  <h6 class="card-title">Eriline rohuesetus</h6>
+                  <p class="card-text">Idee, mis loob usaldust ja struktuuri.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <img src="https://picsum.photos/id/1025/300/200" class="card-img-top" alt="Pilt 6" style="height:150px; object-fit:cover;">
+                <div class="card-body text-center">
+                  <h6 class="card-title">Eriline rohuesetus</h6>
+                  <p class="card-text">Idee, mis loob usaldust ja struktuuri.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#multiCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#multiCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+</section>
+
+<section class="py-5 bg-light text-center">
+  <div class="container">
+    <h4>Ara maga uuendusi maha</h4>
+    <p>Soovime kuulda sinust. Jaga oma e-posti, et saada uudiseid!</p>
+    <form class="row justify-content-center g-2">
+      <div class="col-auto">
+        <input type="email" class="form-control" placeholder="E-post">
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary">Telli</button>
+      </div>
+    </form>
+  </div>
+</section>
+<section class="py-5 text-center">
+  <div class="container">
+    <h4>Kutse tegevusele</h4>
+    <p>Lühike tekst ja nupp, mis toob kasutaja tegevusele.</p>
+    <a href="#" class="btn btn-primary">Kutse tegevusele</a>
+  </div>
+</section>
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+  <div class="container">
+    <h1 class="navbar-brand fw-bold" href="#">metshein.com</h1>
+    <p class="mb-4">@metshein.com</p>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#">privaatsus</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">tingimused</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">kontakt</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
